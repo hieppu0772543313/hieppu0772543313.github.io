@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8" name='viewport' content='width=device-width, initial-scale=1'>
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>KING_CAME</title>
+<title>GIỚI THIỆU</title>
 <!-- InstanceEndEditable -->
 <link type="text/css" rel="stylesheet" href="css/template.css">
-<!-- InstanceBeginEditable name="head" --><link href="css/Trangchu.css" type="text/css" rel="stylesheet">
+<!-- InstanceBeginEditable name="head" --><link href="css/gioithieu.css" type="text/css" rel="stylesheet">
 <script language="javascript">
   function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -16,38 +16,8 @@
       x.className = "topnav";
   }
 }
+</script>
 
-var t;
-var currentIndex =1;
-
-function next(){
-      clearInterval(t);
-      if (currentIndex < 3){
- 	currentIndex++;
- 	document.getElementById ("hinhslide").src = "imgs/images/" + currentIndex + ".jpg";
-      }
-      else{
- 	currentIndex=1;
- 	document.getElementById ("hinhslide").src = "imgs/images/" + currentIndex + ".jpg";
-      }
-      t = setInterval("next()", 3000);
-
-}
-function back(){
-      clearInterval(t);
-      if (currentIndex > 1){
- 	currentIndex--;
- 	document.getElementById ("hinhslide").src = "imgs/images/" + currentIndex + ".jpg"
-      }
-      else{
- 	currentIndex=3;
- 	document.getElementById ("hinhslide").src = "imgs/images/" + currentIndex + ".jpg"
-      }
- 
-}
-t = setInterval("next()", 3000);
-
-  </script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -63,11 +33,7 @@ t = setInterval("next()", 3000);
   </header>
   <div id="slider">
   <!-- InstanceBeginEditable name="slider" -->
-	<div id="anh">
-<img id="hinhslide" src="imgs/images/1.jpg" />
-<div id="previous"><img src="imgs/images/prev.png" onClick="back()"/></div>
-<div id="next"><img src="imgs/images/next.png" onClick="next()"/></div>
-</div>
+	
   <!-- InstanceEndEditable -->
   </div>
   <div class="topnav" id="myTopnav">
@@ -276,42 +242,21 @@ t = setInterval("next()", 3000);
     </aside>
     <section>
     <!-- InstanceBeginEditable name="section" -->
-    <div id="tatcasp"> 
-    <p class="phanmuc">Sản phẩm mới</p>
-    	<div class="sp">
-    		<img class="hinhsp" src="imgs/sp1.jpg" />
-    		<p class="tensp"><a href="800D.html">CANON 800D</a></p>
-    		<p class="dongia">Giá: <span class="gia">11,000,00 VND</span></p>
-    </div>
-    	<div class="sp">
-    		<img class="hinhsp" src="imgs/sp2.jpg" />
-    		<p class="tensp"><a href="M3.html">CANON M3</a></p>
-    		<p class="dongia">Giá: <span class="gia">6,500,000 VND</span></p>
-    </div>
-   
-    	<div class="sp">
-    		<img class="hinhsp" src="imgs/sp3.jpg" />
-    		<p class="tensp"><a href="M10.html">CANON M10</a></p>
-    		<p class="dongia">Giá: <span class="gia">4,500,000 VND</span></p>
-    </div>
-    <div class="sp">
-    		<img class="hinhsp" src="imgs/sp4.jpg" />
-    		<p class="tensp"><a href="fujixt4.html">FUJIFILM XT4</a></p>
-    		<p class="dongia">Giá: <span class="gia">51,000,000 VND</span></p>
-    </div>
-    <div class="sp">
-    		<img class="hinhsp" src="imgs/sp5.jpg" />
-    		<p class="tensp"><a href="SONYA6000.html">SONY A6000</a></p>
-    		<p class="dongia">Giá: <span class="gia">8,500,000 VND</span></p>
-    </div>
-    <div class="sp">
-    		<img class="hinhsp" src="imgs/sp6.jpg" />
-    		<p class="tensp"><a href="M50.html">CANON M50</a></p>
-    		<p class="dongia">Giá: <span class="gia">11,500,000 VND</span></p>
-    </div>
-    	
-    </div>
-  
+    <div id="intro">
+    <p>Thành lập từ năm 2011 đến nay, KingCame là một ngành mũi nhọn của hệ thống Điện Máy Bình Minh để gây dựng thương hiệu và phát triển bền vững lâu dài nhắm đến lợi ích sau cùng cho người tiêu dùng. KingCame xây dựng và phát triển dựa trên sự hợp tác với các thương hiệu lớn trong ngành kĩ thuật số, nhằm đem đến cho người tiêu dùng những sản phẩm chất lượng nhất với giá thành hợp lí nhất.</p>
+    <h4>Sứ mệnh của công ty</h4>
+    <p>King Came mong muốn đem lại sự hài lòng cho khách hàng không chỉ riêng sản phẩm. Chúng tôi cam kết cung cấp và phục vụ tới khách hàng những sản phẩm, dịch vụ có chất lượng và giá trị tốt nhất với chi phí hợp lý nhất.</p>
+    <h4>Tầm nhìn công ty</h4>
+    <p>Với định hướng xây dựng KingCame trở thành thương hiệu bán hàng điện tử, kĩ thuật số công nghệ cao hàng đầu Việt Nam. Chúng tôi cam kết sẽ là địa chỉ tin cậy tuyệt đối cho khách hàng muốn tìm kiếm những sản phẩm uy tín, chất lượng được đảm bảo dựa trên cam kết chính sách đổi, trả và dịch vụ bảo hành sản phẩm của chúng tôi.</p>
+    <h4>Định hướng phát triển của công ty</h4>
+    <p>Giữ vững và ngày càng tăng tốc độ phát triển trên mọi chỉ tiêu: doanh số, thị phần, nhân lực, giá trị thương hiệu, số lượng và chất lượng sản phẩm. Tập trung các nguồn lực để cung cấp sản phẩm và dịch vụ đáp ứng nhu cầu ngày càng cao của khách hàng.
+Đội ngũ nhân viên sáng tạo, năng động. nhiệt tình và ham học hỏi, King Came tự hào khi mang đến cho khách hàng những sản phẩm chất lượng cao với giá ưu đãi, tư vấn miễn phí và giao hàng tận nơi.
+
+</p>
+    <h4>Là đối tác tin cậy</h4>
+    <p>Công ty chúng tôi hợp tác phân phối với nhiều thương hiệu uy tín trên toàn thế giới nhằm mang lại cho khách hàng nhiều sự lựa chọn hơn và an tâm về chất lượng hơn. 
+Các thương hiệu máy ảnh, kĩ thuật số như: SONY, NIKON, CANON, FUJIFILM, OLYMPUS,…</p>
+  </div>
     
   	<!-- InstanceEndEditable -->
     </section>
