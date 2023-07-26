@@ -1,8 +1,7 @@
 name: CI/CD Pipeline
 on:
   push:
-    branches:
-      - main  # Đổi thành tên nhánh chính của bạn nếu không phải là "main"
+    branches: [main, first_branch]  # Đổi thành tên nhánh chính của bạn nếu không phải là "main"
 
 jobs:
   build:
